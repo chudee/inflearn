@@ -1,0 +1,12 @@
+{
+  "name": "webpack",
+  "version": "1.0.0",
+  "description": "Let's learn what is webpack and the basic of it.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["webpack"],
+  "author": "geonwoo.chu@gmail.com",
+  "license": "ISC"
+}

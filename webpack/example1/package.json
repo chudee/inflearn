@@ -1,0 +1,21 @@
+{
+  "name": "example1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:dev": "webpack --mode=development",
+    "build:prod": "webpack --mode=production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^0.28.10",
+    "extract-text-webpack-plugin": "^4.0.0-alpha.0",
+    "style-loader": "^0.20.2",
+    "webpack": "^4.0.0-beta.3",
+    "webpack-cli": "^2.0.8"
+  }
+}

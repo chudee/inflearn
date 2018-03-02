@@ -8,8 +8,9 @@ module.exports = {
     },
 
     output: {
+        path: path.resolve(__dirname, 'dist'),
         filename: '[name].js',
-        path: path.resolve(__dirname, 'dist')
+        // filename: '[name].[chunkhash].js' // manifest.json 설정을 따로 해줘서 hash값을 잡아야합니ㅏㄷ.
     },
     
     module: {
@@ -33,6 +34,6 @@ module.exports = {
             chunks: "all"
         }
     },
-    
+
     devtool: '#inline-source-map'
 }
